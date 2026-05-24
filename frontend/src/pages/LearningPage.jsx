@@ -85,11 +85,12 @@ function LearningPage() {
 
   useEffect(() => {
 
-    fetchLessons();
+  fetchLessons();
 
-    fetchProgress();
+  fetchProgress();
 
-  }, []);
+// eslint-disable-next-line
+}, []);
 
   // Convert YouTube URL to embed URL
   const getEmbedUrl = (url) => {
