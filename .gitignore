@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+npm-debug.log*
+
+# Build folders
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite temporary files
+*.sqlite-shm
+*.sqlite-wal
+
+# Vercel
+.vercel/
+
+# Render
+.render/
